@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+.bck_img{
+    background-image: linear-gradient(45deg, rgba(86, 154, 163, 0.332),rgba(21, 222, 219, 0.228)),url("street.png");
+    width: auto;
+    height: 700px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.links{
+    color: black;
+    
+}
+.babs{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    width: 500px;
+    transform: translate(-50%,-50);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2.big{
+    font-size: 100px;
+}
+.stext{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+width: 800px;
+}
+.linkers{
+    font-size:30px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+}
+.dev{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  width: max-content;
+}
+.dev1{
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+  width: max-content;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.row1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h3{
+    font-size:30px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg{
+    width: 450px;
+    height: 0px;
+}
+main h5{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 30%;
+    margin-top: 10%;
+    margin-bottom: auto;
+    margin-left: 40%;
+    padding: 3px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding:1%;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(109, 105, 105);
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.lone{
+    color: red;
+    box-shadow: 2px 2px rgb(175, 170, 170);
+    font-weight: bold;
+}
+
+li.lone:hover{
+    background-color: rgb(228, 110, 110);
+    border: 1px solid rgb(228, 110, 110);
+    color: white;
+
+}
+
+li.ltwo{
+    color: rgb(97, 83, 163);
+    box-shadow: 2px 2px rgb(175, 170, 170);
+    font-weight: bold;
+}
+
+li.ltwo:hover{
+    background-color: rgb(97, 83, 163);
+    border: 1px solid rgb(228, 110, 110);
+    color: white;
+
+}
+
+li.lthree{
+    color: rgb(80, 143, 88);
+    box-shadow: 2px 2px rgb(175, 170, 170);
+    font-weight: bold;
+}
+
+li.lthree:hover{
+    background-color: rgb(80, 143, 88);
+    border: 1px solid rgb(228, 110, 110);
+    color: white;
+}
+
+main{
+    margin-left: 15%;
+}
+
+h2{
+    margin-top: 20%;
+}
+
+p img{
+    width: 28.5%;
+}
