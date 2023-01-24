@@ -1,0 +1,56 @@
+@font-face {
+    font-family: ab;
+    src: url(./angry_birds_movie-webfont.ttf);
+}
+
+h1{
+    font-family: ab;
+    text-align: center;
+    color: red;
+    font-size: 80px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30%;
+}
+
+.one div{
+    width: 130px;
+    height: 130px;
+    background-image: url(./angrybird.png);
+    align-items: center;
+}
+
+.A1{
+    background-position: -1px 5px;
+}
+
+.A2{
+    background-position: -1px -130px;
+}
+
+.A3{
+    background-position: -1px -255px;
+}
+
+.A4{
+    background-position: -1px -390px;
+}
+
+.A1:hover{
+    background-position: 139px 5px;
+}
+
+.A2:hover{
+    background-position: 139px -130px;
+}
+
+.A3:hover{
+    background-position: 139px -255px;
+}
+
+.A4:hover{
+    background-position: 139px -390px;
+}
