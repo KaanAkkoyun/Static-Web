@@ -1,0 +1,33 @@
+.btn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn li{
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("sprite.png");
+}
+
+.btn li.fb{
+    background-position: 0px 0px;
+}
+.btn li.tw{
+    background-position: 60px 0px;
+}
+.btn li.pr{
+    background-position: 240px 0px;
+}
+
+.btn li.fb:hover{
+    background-position: 0px 50px;
+}
+.btn li.tw:hover{
+    background-position: 60px 50px;
+}
+.btn li.pr:hover{
+    background-position: 240px 50px;
+}
